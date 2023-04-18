@@ -14,13 +14,17 @@
 
 ```bash
 git clone https://github.com/your_username/telegram-bot-shop.git
+```
 Перейдите в папку с проектом и установите зависимости:
-
+```
 cd telegram-bot-shop
 pip install -r requirements.txt
+```
 Создайте файл .env и добавьте в него токен доступа к боту:
-
+```
 echo "BOT_TOKEN=your-bot-token-here" > .env
+```
 Запустите бота:
-
-python bot.py
+```
+main.py
+```
