@@ -14,11 +14,8 @@ schemes = [
 # Стоимость одной "Схемы по заработку" в рублях
 price = 1000
 
-# Токен доступа к боту, полученный от BotFather
-BOT_TOKEN = os.environ.get('BOT_TOKEN')
-
-# Создание экземпляра бота
-bot = telebot.TeleBot(BOT_TOKEN)
+# Создаем объект бота с помощью токена, полученного от @BotFather
+bot = telebot.TeleBot("ВАШ ТОКЕН")
 
 # Обработчик команд /start и /help
 @bot.message_handler(commands=['start', 'help'])
